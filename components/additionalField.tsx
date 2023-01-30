@@ -37,7 +37,12 @@ export default function AdditionalField(props: Props) {
           onDel(field.id);
         }}
       >
-        <Image src={"/trash.png"} width={15} height={15} alt="add" />
+        <Image
+          src={process.env.NEXT_PUBLIC_GITHUB_PAGES + "/trash.png"}
+          width={15}
+          height={15}
+          alt="add"
+        />
       </CustomButton>
       {last && (
         <CustomButton
@@ -47,7 +52,12 @@ export default function AdditionalField(props: Props) {
             onAdd();
           }}
         >
-          <Image src={"/add.png"} width={15} height={15} alt="add" />
+          <Image
+            src={process.env.NEXT_PUBLIC_GITHUB_PAGES + "/add.png"}
+            width={15}
+            height={15}
+            alt="add"
+          />
         </CustomButton>
       )}
     </div>

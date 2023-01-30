@@ -55,7 +55,7 @@ export default function ContactForm() {
   };
   const sendDetails = (e: FormEvent) => {
     e.preventDefault();
-    fetch("http://localhost:3000/api/form", {
+    fetch(process.env.NEXT_PUBLIC_URL + "/api/form", {
       method: "POST",
       body: JSON.stringify({
         contactInfo: {
