@@ -47,7 +47,7 @@ export default function AdditionalField(props: Props) {
             onAdd();
           }}
         >
-          <Image src={+"/add.png"} width={15} height={15} alt="add" />
+          <Image src={"/add.png"} width={15} height={15} alt="add" />
         </CustomButton>
       )}
     </div>
