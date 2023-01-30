@@ -7,7 +7,7 @@ import Statement from "../components/statement";
 
 const Home: NextPage = () => {
   return (
-    <section id="main-form" className="max-w-[1000px] mx-auto p-10">
+    <section id="main-form" className="max-w-[1000px] mx-auto p-5">
       <h2 className="text-5xl mb-5 text-black">Investor Onboarding Form</h2>
       <Statement />
       <ContactForm />

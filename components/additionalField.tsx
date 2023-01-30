@@ -32,6 +32,7 @@ export default function AdditionalField(props: Props) {
         value={field.link}
       />
       <CustomButton
+        customClass="py-3"
         onClick={(e) => {
           e.preventDefault();
           onDel(field.id);
@@ -41,6 +42,7 @@ export default function AdditionalField(props: Props) {
       </CustomButton>
       {last && (
         <CustomButton
+          customClass="py-3"
           type="button"
           onClick={(e) => {
             e.preventDefault();
