@@ -4,11 +4,15 @@
 #
 name: Deploy Next.js site to Pages
 
+env:
+  NEXT_PUBLIC_URL: https://gateniomer.github.io/Investor-form/
+  NEXT_PUBLIC_GITHUB_PAGES: /Investor-form
+  
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
+  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
