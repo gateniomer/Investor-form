@@ -5,8 +5,8 @@
 name: Deploy Next.js site to Pages
 
 env:
-  'NEXT_PUBLIC_URL': 'https://gateniomer.github.io/Investor-form/'
-  'NEXT_PUBLIC_GITHUB_PAGES': '/Inverstor-form'
+  NEXT_PUBLIC_URL: https://gateniomer.github.io/Investor-form/
+  NEXT_PUBLIC_GITHUB_PAGES: /Inverstor-form
   
 on:
   # Runs on pushes targeting the default branch
